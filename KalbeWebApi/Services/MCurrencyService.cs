@@ -24,6 +24,7 @@ namespace KalbeWebApi.Services
 
 		public MCurrency AddMCurrency(MCurrency mcurrency)
 		{
+
 			if (mcurrency != null)
 			{
 				dbContext.MCurrencys.Add(mcurrency);
